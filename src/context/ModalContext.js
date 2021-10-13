@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createContext } from "react";
 import axios from "axios";
-import Receta from "../components/Receta";
+//import Receta from "../components/Receta";
 
 export const ModalContext = createContext();
 

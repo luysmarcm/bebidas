@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, {useContext, useState} from "react";
 import { ModalContext } from "../context/ModalContext";
 import Modal from '@material-ui/core/Modal';

@@ -22,7 +22,7 @@ const RecetasProvider = (props) => {
       setrecetas(resultado.data.drinks);
     };
     obtenerReceta();
-  }, [busquedaReceta]);
+  }, [busquedaReceta, categoria, nombre]);
 
   return (
     <RecetasContext.Provider
